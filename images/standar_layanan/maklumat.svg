@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="504" viewBox="0 0 360 504">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.941" y1="0.722" x2="0.059" y2="0.278" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#216e9a"/>
+      <stop offset="1" stop-color="#84acdb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.074" y1="1.099" x2="0.926" y2="-0.099" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f68a34"/>
+      <stop offset="1" stop-color="#fbf5a2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.074" y1="-0.099" x2="0.926" y2="1.098" xlink:href="#linear-gradient-2"/>
+    <clipPath id="clip-Maklumat_Pelayanan">
+      <rect width="360" height="504"/>
+    </clipPath>
+  </defs>
+  <g id="Maklumat_Pelayanan" data-name="Maklumat Pelayanan" clip-path="url(#clip-Maklumat_Pelayanan)">
+    <rect width="360" height="504" fill="#fff"/>
+    <text id="Ombudsman_RI_menyatakan_sanggup_menyelenggarakan_pelayanan_Sesuai_standar_pelayanan_yang_telah_ditetapkan_Pelanggaran_terhadap_Maklumat_ini_akan_dikenakan_sanksi_sesuai_peraturan_perundang-undangan" data-name="Ombudsman RI menyatakan 
+sanggup menyelenggarakan pelayanan
+Sesuai standar pelayanan yang telah ditetapkan
+Pelanggaran terhadap Maklumat ini akan dikenakan sanksi
+ sesuai peraturan perundang-undangan" transform="translate(180 231)" font-size="12" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="-80.628" y="0">Ombudsman RI menyatakan </tspan><tspan x="-110.46" y="13">sanggup menyelenggarakan pelayanan</tspan><tspan x="-136.434" y="26">Sesuai standar pelayanan yang telah ditetapkan</tspan><tspan x="-166.986" y="39">Pelanggaran terhadap Maklumat ini akan dikenakan sanksi</tspan><tspan x="-111.438" y="52" xml:space="preserve"> sesuai peraturan perundang-undangan</tspan></text>
+    <g id="Layer_x0020_1" transform="translate(-1215 -1773)">
+      <g id="_2034253664640" transform="translate(1215 1773)">
+        <rect id="Rectangle_1" data-name="Rectangle 1" width="360" height="504" fill="none"/>
+        <line id="Line_6" data-name="Line 6" y2="65" fill="none"/>
+        <path id="Path_2" data-name="Path 2" d="M1293.574,1823.9l4.577-50.9H1215v63.109h51.181C1277.138,1834.792,1290.315,1830.215,1293.574,1823.9Z" transform="translate(-1215 -1773)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+        <path id="Path_3" data-name="Path 3" d="M2133.39,1773v40.639H1839.412c-6.866-.347-8.322-1.942-10.68-5.964L1815,1773Z" transform="translate(-1773.39 -1773)" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+        <path id="Path_4" data-name="Path 4" d="M1215,7582.71V7542h293.978c6.935.347,8.391,1.942,10.68,6.034l13.8,34.676Z" transform="translate(-1215 -7078.916)" fill-rule="evenodd" fill="url(#linear-gradient-3)"/>
+      </g>
+    </g>
+    <text id="Maklumat_Pelayanan-2" data-name="Maklumat Pelayanan" transform="translate(64 25)" fill="#fff" font-size="14" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Maklumat Pelayanan</tspan></text>
+  </g>
+</svg>

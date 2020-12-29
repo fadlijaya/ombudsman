@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "781899902909",
+    "firebase_url": "https://pelaporan-a8040.firebaseio.com",
+    "project_id": "pelaporan-a8040",
+    "storage_bucket": "pelaporan-a8040.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781899902909:android:80a7d78924d38a42152cd4",
+        "android_client_info": {
+          "package_name": "com.fadlydev.ombudsman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781899902909-s8pd779ns1evthut20pd503b8ohf1o0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWRzZMTtU4Qb_mX0HSsf_fZKnrNv0nYbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781899902909-s8pd779ns1evthut20pd503b8ohf1o0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

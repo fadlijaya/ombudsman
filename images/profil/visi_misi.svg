@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="504" viewBox="0 0 360 504">
+  <defs>
+    <clipPath id="clip-path">
+      <rect y="1" width="4.265" height="2.265" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.941" y1="0.722" x2="0.059" y2="0.278" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#216e9a"/>
+      <stop offset="1" stop-color="#84acdb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.074" y1="1.099" x2="0.926" y2="-0.099" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f68a34"/>
+      <stop offset="1" stop-color="#fbf5a2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.074" y1="-0.099" x2="0.926" y2="1.098" xlink:href="#linear-gradient-2"/>
+    <clipPath id="clip-Visi_dan_Misi">
+      <rect width="360" height="504"/>
+    </clipPath>
+  </defs>
+  <g id="Visi_dan_Misi" data-name="Visi dan Misi" clip-path="url(#clip-Visi_dan_Misi)">
+    <rect width="360" height="504" fill="#fff"/>
+    <path id="Path_1" data-name="Path 1" d="M3246.5,239.989" transform="translate(-3010)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="Scroll_Group_1" data-name="Scroll Group 1" transform="translate(230.868 228.868)" clip-path="url(#clip-path)" style="isolation: isolate">
+      <line id="Line_4" data-name="Line 4" x2="3" y2="1" transform="translate(6.632 1.632)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+    </g>
+    <g id="Group_23" data-name="Group 23" transform="translate(0 -21)">
+      <g id="Group_22" data-name="Group 22">
+        <circle id="Ellipse_1" data-name="Ellipse 1" cx="40" cy="40" r="40" transform="translate(140 218)" fill="#ed5a26"/>
+        <g id="Group_9" data-name="Group 9">
+          <text id="Visi" transform="translate(170 241)" fill="#fff" font-size="12" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Visi</tspan></text>
+          <text id="Ombudsman_Republik_Indonesia_yang_Berwibawa_Efektif_dan_Adil" data-name="Ombudsman
+Republik Indonesia
+yang Berwibawa,
+Efektif dan Adil" transform="translate(180 259)" fill="#fff" font-size="6" font-family="Ubuntu-Medium, Ubuntu" font-weight="500"><tspan x="-17.589" y="0">Ombudsman</tspan><tspan x="-26.511" y="7">Republik Indonesia</tspan><tspan x="-23.589" y="14">yang Berwibawa,</tspan><tspan x="-21.636" y="21">Efektif dan Adil</tspan></text>
+        </g>
+      </g>
+      <g id="Group_20" data-name="Group 20">
+        <circle id="Ellipse_3" data-name="Ellipse 3" cx="40" cy="40" r="40" transform="translate(241 173)" fill="#faa634"/>
+        <g id="Group_6" data-name="Group 6">
+          <text id="Misi_2" data-name="Misi 2" transform="translate(265 196)" fill="#fff" font-size="12" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Misi 2</tspan></text>
+          <text id="Meningkatkan_kualitas_Pelayanan_Ombudsman_RI" data-name="Meningkatkan kualitas
+Pelayanan
+Ombudsman RI" transform="translate(282 212)" font-size="6" font-family="Ubuntu-Medium, Ubuntu" font-weight="500"><tspan x="-31.629" y="0">Meningkatkan kualitas</tspan><tspan x="-14.223" y="7">Pelayanan</tspan><tspan x="-21.084" y="14">Ombudsman RI</tspan></text>
+        </g>
+      </g>
+      <g id="Group_21" data-name="Group 21">
+        <circle id="Ellipse_4" data-name="Ellipse 4" cx="40" cy="40" r="40" transform="translate(140 105)" fill="#faa634"/>
+        <g id="Group_7" data-name="Group 7">
+          <text id="Misi_1" data-name="Misi 1" transform="translate(164 131)" fill="#fff" font-size="12" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Misi 1</tspan></text>
+          <text id="Memperkuat_Kelembagaan" data-name="Memperkuat
+Kelembagaan" transform="translate(181 147)" font-size="6" font-family="Ubuntu-Medium, Ubuntu" font-weight="500"><tspan x="-17.928" y="0">Memperkuat</tspan><tspan x="-18.903" y="7">Kelembagaan</tspan></text>
+        </g>
+      </g>
+      <g id="Group_19" data-name="Group 19">
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="40" cy="40" r="40" transform="translate(241 298)" fill="#faa634"/>
+        <g id="Group_8" data-name="Group 8">
+          <text id="Misi_3" data-name="Misi 3" transform="translate(264 326)" fill="#fff" font-size="12" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Misi 3</tspan></text>
+          <text id="Meningkatkan_Partisipasi_Masyarakat" data-name="Meningkatkan
+Partisipasi
+Masyarakat" transform="translate(281 342)" font-size="6" font-family="Ubuntu-Medium, Ubuntu" font-weight="500"><tspan x="-19.98" y="0">Meningkatkan</tspan><tspan x="-14.499" y="7">Partisipasi</tspan><tspan x="-16.104" y="14">Masyarakat</tspan></text>
+        </g>
+      </g>
+      <g id="Group_18" data-name="Group 18">
+        <circle id="Ellipse_6" data-name="Ellipse 6" cx="40" cy="40" r="40" transform="translate(39 298)" fill="#faa634"/>
+        <g id="Group_10" data-name="Group 10">
+          <text id="Misi_4" data-name="Misi 4" transform="translate(63 321)" fill="#fff" font-size="12" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Misi 4</tspan></text>
+          <text id="Mendorong_Peningkatan_Kualitas_Pelayanan_Publik" data-name="Mendorong 
+Peningkatan
+Kualitas
+Pelayanan
+Publik" transform="translate(80 337)" font-size="6" font-family="Ubuntu-Medium, Ubuntu" font-weight="500"><tspan x="-16.917" y="0">Mendorong </tspan><tspan x="-17.46" y="7">Peningkatan</tspan><tspan x="-11.196" y="14">Kualitas</tspan><tspan x="-14.223" y="21">Pelayanan</tspan><tspan x="-8.778" y="28">Publik</tspan></text>
+        </g>
+      </g>
+      <g id="Group_17" data-name="Group 17">
+        <circle id="Ellipse_5" data-name="Ellipse 5" cx="40" cy="40" r="40" transform="translate(39 173)" fill="#faa634"/>
+        <g id="Group_11" data-name="Group 11">
+          <text id="Misi_5" data-name="Misi 5" transform="translate(63 196)" fill="#fff" font-size="12" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Misi 5</tspan></text>
+          <text id="Memperkuat_Pemberantasan_dan_Pencegahan_Maladministrasi_dan_Korupsi" data-name="Memperkuat
+Pemberantasan
+dan Pencegahan
+Maladministrasi
+dan Korupsi" transform="translate(79 212)" font-size="6" font-family="Ubuntu-Medium, Ubuntu" font-weight="500"><tspan x="-17.928" y="0">Memperkuat</tspan><tspan x="-21.744" y="7">Pemberantasan</tspan><tspan x="-22.689" y="14">dan Pencegahan</tspan><tspan x="-22.176" y="21">Maladministrasi</tspan><tspan x="-16.467" y="28">dan Korupsi</tspan></text>
+        </g>
+      </g>
+      <g id="Group_12" data-name="Group 12" transform="translate(-2 1)">
+        <line id="Line_1" data-name="Line 1" y1="3.43" x2="6.545" transform="translate(227.955 230.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_3" data-name="Line 3" x2="3" y2="1" transform="translate(231.5 229.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_5" data-name="Line 5" x1="1" y2="3" transform="translate(233.5 230.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+      </g>
+      <g id="Group_13" data-name="Group 13" transform="translate(125.955 230.5)">
+        <line id="Line_1-2" data-name="Line 1" x1="6.545" y1="3.43" transform="translate(0 1)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_3-2" data-name="Line 3" x1="3" y2="1" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_5-2" data-name="Line 5" x2="1" y2="3" transform="translate(0 1)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+      </g>
+      <g id="Group_14" data-name="Group 14" transform="translate(225.955 291.5)">
+        <line id="Line_1-3" data-name="Line 1" x2="6.545" y2="3.43" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_3-3" data-name="Line 3" y1="1" x2="3" transform="translate(3.545 3.43)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_5-3" data-name="Line 5" x1="1" y1="3" transform="translate(5.545 0.43)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+      </g>
+      <g id="Group_15" data-name="Group 15" transform="translate(125.955 291.5)">
+        <line id="Line_1-4" data-name="Line 1" x1="6.545" y2="3.43" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_3-4" data-name="Line 3" x1="3" y1="1" transform="translate(0 3.43)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_5-4" data-name="Line 5" y1="3" x2="1" transform="translate(0 0.43)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+      </g>
+      <g id="Group_16" data-name="Group 16" transform="matrix(0.454, -0.891, 0.891, 0.454, -130.975, 304.544)">
+        <line id="Line_1-5" data-name="Line 1" y1="3.43" x2="6.545" transform="translate(227.955 230.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_3-5" data-name="Line 3" x2="3" y2="1" transform="translate(231.5 229.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_5-5" data-name="Line 5" x1="1" y2="3" transform="translate(233.5 230.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Layer_x0020_1" transform="translate(-1215 -1773)">
+      <g id="_2034253664640" transform="translate(1215 1773)">
+        <rect id="Rectangle_1" data-name="Rectangle 1" width="360" height="504" fill="none"/>
+        <line id="Line_6" data-name="Line 6" y2="65" fill="none"/>
+        <path id="Path_2" data-name="Path 2" d="M1293.574,1823.9l4.577-50.9H1215v63.109h51.181C1277.138,1834.792,1290.315,1830.215,1293.574,1823.9Z" transform="translate(-1215 -1773)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+        <path id="Path_3" data-name="Path 3" d="M2133.39,1773v40.639H1839.412c-6.866-.347-8.322-1.942-10.68-5.964L1815,1773Z" transform="translate(-1773.39 -1773)" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+        <path id="Path_4" data-name="Path 4" d="M1215,7582.71V7542h293.978c6.935.347,8.391,1.942,10.68,6.034l13.8,34.676Z" transform="translate(-1215 -7078.916)" fill-rule="evenodd" fill="url(#linear-gradient-3)"/>
+      </g>
+    </g>
+    <text id="Visi_dan_Misi-2" data-name="Visi dan Misi" transform="translate(64 25)" fill="#fff" font-size="14" font-family="Ubuntu-Bold, Ubuntu" font-weight="700"><tspan x="0" y="0">Visi dan Misi</tspan></text>
+  </g>
+</svg>
