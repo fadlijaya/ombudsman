@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="640" viewBox="0 0 360 640">
+  <defs>
+    <clipPath id="clip-Prosedur">
+      <rect width="360" height="640"/>
+    </clipPath>
+  </defs>
+  <g id="Prosedur" clip-path="url(#clip-Prosedur)">
+    <rect width="360" height="640" fill="#fff"/>
+    <g id="Layer_x0020_1" transform="translate(-1098 -1329)">
+      <g id="_2039704825472">
+        <rect id="Rectangle_2" data-name="Rectangle 2" width="360" height="640" transform="translate(1098 1329)" fill="#f2f3f3"/>
+        <rect id="Rectangle_3" data-name="Rectangle 3" width="224.55" height="69.896" transform="translate(1098 1439)" fill="#ffdcab"/>
+        <rect id="Rectangle_4" data-name="Rectangle 4" width="197.295" height="31.364" rx="6" transform="translate(1098 1424)" fill="#ed5a26"/>
+        <path id="Path_5" data-name="Path 5" d="M1458,1532H1098v70h55c0-5,5-10,10-10,6,0,11,5,11,10h101a10,10,0,0,1,20,0h95c0-5,5-10,10-10,6,0,11,5,11,10h47Z" fill="#73c6fa" fill-rule="evenodd"/>
+        <rect id="Rectangle_5" data-name="Rectangle 5" width="275.628" height="31.364" rx="9" transform="translate(1182 1517)" fill="#247197"/>
+        <rect id="Rectangle_6" data-name="Rectangle 6" width="97.39" height="41.146" rx="10" transform="translate(1110 1639)" fill="#fefefe"/>
+        <rect id="Rectangle_7" data-name="Rectangle 7" width="110.417" height="41.146" rx="12" transform="translate(1222 1638)" fill="#fefefe"/>
+        <rect id="Rectangle_8" data-name="Rectangle 8" width="97.39" height="41.146" rx="10" transform="translate(1347 1636)" fill="#fefefe"/>
+        <rect id="Rectangle_9" data-name="Rectangle 9" width="320" height="124" rx="9" transform="translate(1117 1700)" fill="#00a652"/>
+        <rect id="Rectangle_10" data-name="Rectangle 10" width="99.601" height="20.313" transform="translate(1139 1861)" fill="#9d1818"/>
+        <rect id="Rectangle_11" data-name="Rectangle 11" width="51.946" height="20.313" transform="translate(1251 1861)" fill="#9d1818"/>
+        <rect id="Rectangle_12" data-name="Rectangle 12" width="69.746" height="20.313" transform="translate(1315 1861)" fill="#9d1818"/>
+        <rect id="Rectangle_13" data-name="Rectangle 13" width="83.308" height="20.313" transform="translate(1178 1891)" fill="#9d1818"/>
+        <rect id="Rectangle_14" data-name="Rectangle 14" width="109.605" height="20.313" transform="translate(1291 1892)" fill="#9d1818"/>
+      </g>
+    </g>
+    <g id="Group_24" data-name="Group 24" transform="translate(-860 -662)">
+      <text id="_PENYAMPAIAN_LAPORAN_PENGADUAN_PELAYANAN_PUBLIK" data-name="
+PENYAMPAIAN LAPORAN/PENGADUAN
+PELAYANAN PUBLIK" transform="translate(922 698)" font-size="10" font-family="Ubuntu-Medium, Ubuntu" font-weight="500"><tspan x="118.5" y="9"></tspan><tspan x="25.525" y="20">PENYAMPAIAN LAPORAN/PENGADUAN</tspan><tspan x="71.12" y="31">PELAYANAN PUBLIK</tspan></text>
+      <text id="Tata_Cara" data-name="Tata Cara" transform="translate(1039 702)" fill="#de2828" font-size="12" font-family="KristenITC-Regular, Kristen ITC"><tspan x="-29.938" y="0">Tata Cara</tspan></text>
+    </g>
+    <text id="Apa_yang_dapat_anda_laporkan" data-name="Apa yang dapat anda laporkan" transform="translate(30 103)" fill="#fff" font-size="10" font-family="Ubuntu-Regular, Ubuntu"><tspan x="0" y="9">Apa yang dapat anda laporkan</tspan></text>
+    <text id="Dugaan_Maladministrasi_pada_penyelenggaraan_pelayanan_publik_yang_diselenggarakan_oleh_Penyelenggara_Negara_dan_Pemerintah_baik_pusat_maupun_di_daerah_termasuk_yang_diselenggarakan_oleh_Badan_Usaha_Milik_Negara_Badan_Usaha_Milik_Daerah_dan_Badan_Hukum_" data-name="Dugaan Maladministrasi pada penyelenggaraan pelayanan publik
+yang diselenggarakan oleh Penyelenggara Negara dan Pemerintah,
+baik pusat maupun di daerah, termasuk yang diselenggarakan oleh 
+Badan Usaha Milik Negara, Badan Usaha Milik Daerah
+dan Badan Hukum " transform="translate(10 131)" font-size="6" font-family="Ubuntu-Regular, Ubuntu"><tspan x="0" y="6">Dugaan Maladministrasi pada penyelenggaraan pelayanan publik</tspan><tspan x="0" y="13">yang diselenggarakan oleh Penyelenggara Negara dan Pemerintah,</tspan><tspan x="0" y="20">baik pusat maupun di daerah, termasuk yang diselenggarakan oleh </tspan><tspan x="0" y="27">Badan Usaha Milik Negara, Badan Usaha Milik Daerah</tspan><tspan x="0" y="34">dan Badan Hukum Milik Negara, serta badan swasta atau perseorangan</tspan><tspan x="0" y="41">yang diberi tugas menyelenggarakan pelayanan publik tertentu.</tspan></text>
+    <text id="Ombudsman_RI_menolak_laporan_dalam_hal" data-name="Ombudsman RI menolak laporan dalam hal" transform="translate(126 197)" fill="#fff" font-size="10" font-family="Ubuntu-Regular, Ubuntu"><tspan x="0" y="9">Ombudsman RI menolak laporan dalam hal</tspan></text>
+    <text id="Persyaratan_Laporan" data-name="Persyaratan Laporan" transform="translate(142 285)" font-size="8" font-family="Ubuntu-Medium, Ubuntu" font-weight="500"><tspan x="0" y="7">Persyaratan Laporan</tspan></text>
+    <text id="Persyaratan_Dokumen" data-name="Persyaratan Dokumen" transform="translate(139 377)" fill="#fff" font-size="8" font-family="Ubuntu-Medium, Ubuntu" font-weight="500"><tspan x="0" y="7">Persyaratan Dokumen</tspan></text>
+    <text id="_1._Fotokopi_identitas_diri_Anda_KTP_Passport_SIM_2._Uraian_kronologi_peristiwa_tindakan_atau_keputusan_yang_dilaporkan_meliputi_:_Rincian_kejadian_peristiwa_dimana_dan_kapan_Petugas_Pejabat_penyelenggara_layanan_yang_terka" data-name="1. Fotokopi identitas diri Anda (KTP/Passport/SIM)
+2. Uraian kronologi peristiwa, tindakan atau keputusan yang dilaporkan, meliputi :
+              Rincian kejadian/peristiwa (dimana dan kapan)
+              Petugas/Pejabat penyelenggara layanan yang terka" transform="translate(58 394)" fill="#fff" font-size="6" font-family="Ubuntu-Regular, Ubuntu"><tspan x="0" y="6">1. Fotokopi identitas diri Anda (KTP/Passport/SIM)</tspan><tspan x="0" y="13">2. Uraian kronologi peristiwa, tindakan atau keputusan yang dilaporkan, meliputi :</tspan><tspan x="0" y="20" xml:space="preserve">              Rincian kejadian/peristiwa (dimana dan kapan)</tspan><tspan x="0" y="27" xml:space="preserve">              Petugas/Pejabat penyelenggara layanan yang terkait peristiwa?</tspan><tspan x="0" y="34" xml:space="preserve">              Upaya apa saja yang sudah Anda lakukan dalam kurung waktu 2 tahun terakhir?</tspan><tspan x="0" y="41" xml:space="preserve">              Harapan Anda dengan menyampaikan laporan/pengaduan kepada Ombudsman RI?</tspan><tspan x="0" y="48">3. Surat Kuasa Asli serta fotokopi identitas pemberi dan penerima kuasa apabila Anda</tspan><tspan x="0" y="55" xml:space="preserve">    bukan korban langsung seperti : Kuasa Hukum, Kelompok Masyarakat, Anggota keluarga, dll</tspan><tspan x="0" y="62">4. Dokumen yang menunjukkan legalitas apabila Anda mengatasnamakan LSM, Badan Hukum, </tspan><tspan x="0" y="69" xml:space="preserve">    Yayasan dan lain sebagainya. Misalnya, Akta Pendirian, Surat Keputusan, AD/ART atau lainnya</tspan><tspan x="0" y="76">5. Informasi alamat lengkap dan nomor telepon yang dapat dihubungi, serta e-mail (jika ada) </tspan><tspan x="0" y="83">6. Pernyataan permintaan kerahasiaan identitas Anda jika dikehendaki.</tspan><tspan x="0" y="90">7. Bukti-bukti, dokumen atau foto terkait peristiwa yang dilaporkan.</tspan></text>
+    <text id="Cara_Menyampaikan_Laporan_" data-name="Cara Menyampaikan Laporan
+" transform="translate(133 508)" font-size="8" font-family="Ubuntu-Medium, Ubuntu" font-weight="500"><tspan x="0" y="7">Cara Menyampaikan Laporan</tspan><tspan x="0" y="16"></tspan></text>
+    <text id="Datang_ke_Kantor_Ombudsman_RI_atau_Perwakilan_Ombudsman_RI_" data-name="Datang ke Kantor Ombudsman RI 
+atau Perwakilan Ombudsman RI
+" transform="translate(54 535)" fill="#fff" font-size="5" font-family="Ubuntu-Regular, Ubuntu"><tspan x="0" y="5">Datang ke Kantor Ombudsman RI </tspan><tspan x="0" y="11">atau Perwakilan Ombudsman RI</tspan><tspan x="0" y="17"></tspan></text>
+    <text id="Surat" transform="translate(172 538)" fill="#fff" font-size="6" font-family="Ubuntu-Regular, Ubuntu"><tspan x="0" y="6">Surat</tspan></text>
+    <text id="Hubungi_:_137_dan_082137373737" data-name="Hubungi :
+137 dan 082137373737" transform="translate(228 536)" fill="#fff" font-size="5" font-family="Ubuntu-Regular, Ubuntu"><tspan x="0" y="5">Hubungi :</tspan><tspan x="0" y="11">137 dan 082137373737</tspan></text>
+    <text id="E-mail_:_pengaduan_ombudsman.go.id" data-name="E-mail :
+pengaduan@ombudsman.go.id" transform="translate(87 565)" fill="#fff" font-size="5" font-family="Ubuntu-Regular, Ubuntu"><tspan x="0" y="5">E-mail :</tspan><tspan x="0" y="11">pengaduan@ombudsman.go.id</tspan></text>
+    <text id="Pengaduan_daring_online_www.ombudsman.go.id_menggunakan_Formulir_Pengaduan_Online_dan_mengunggah_dokumen_yang_dipersyaratkan_" data-name="Pengaduan daring (online) www.ombudsman.go.id
+menggunakan Formulir Pengaduan Online
+dan mengunggah dokumen yang dipersyaratkan
+" transform="translate(203 565)" fill="#fff" font-size="4" font-family="Ubuntu-Regular, Ubuntu"><tspan x="0" y="4">Pengaduan daring (online) www.ombudsman.go.id</tspan><tspan x="0" y="9">menggunakan Formulir Pengaduan Online</tspan><tspan x="0" y="14">dan mengunggah dokumen yang dipersyaratkan</tspan><tspan x="0" y="19"></tspan></text>
+    <text id="Pelapor_belum_pernah_menyampaikan_keberatan_tersebut_baik_secara_lisan_maupun_tertulis_pada_pihak_yang_dilaporkan" data-name="Pelapor belum pernah menyampaikan
+keberatan tersebut baik  secara lisan 
+maupun tertulis pada pihak 
+yang dilaporkan" transform="translate(65 234)" font-size="6" font-family="Ubuntu-Regular, Ubuntu"><tspan x="-51.249" y="0">Pelapor belum pernah menyampaikan</tspan><tspan x="-50.268" y="7" xml:space="preserve">keberatan tersebut baik  secara lisan </tspan><tspan x="-37.746" y="14">maupun tertulis pada pihak </tspan><tspan x="-21.666" y="21">yang dilaporkan</tspan></text>
+    <text id="Substansi_laporan_sedang_dan_telah_menjadi_objek_pemeriksaan_pengadilan" data-name="Substansi laporan sedang dan
+telah menjadi objek pemeriksaan
+pengadilan" transform="translate(187 234)" font-size="6" font-family="Ubuntu-Regular, Ubuntu"><tspan x="-40.32" y="0">Substansi laporan sedang dan</tspan><tspan x="-44.781" y="7">telah menjadi objek pemeriksaan</tspan><tspan x="-15.099" y="14">pengadilan</tspan></text>
+    <text id="Substansi_yang_dilaporkan_ternyata_bukan_wewenang_Ombudsman_Republik_Indonesia" data-name="Substansi yang dilaporkan ternyata
+bukan wewenang Ombudsman
+Republik Indonesia" transform="translate(306 234)" font-size="6" font-family="Ubuntu-Regular, Ubuntu"><tspan x="-47.574" y="0">Substansi yang dilaporkan ternyata</tspan><tspan x="-41.871" y="7">bukan wewenang Ombudsman</tspan><tspan x="-25.785" y="14">Republik Indonesia</tspan></text>
+    <text id="Pelapor_adalah_Warga_Negara_Indonesia_atau_Penduduk" data-name="Pelapor adalah
+Warga Negara Indonesia
+atau Penduduk" transform="translate(62 324)" font-size="6" font-family="Ubuntu-Regular, Ubuntu"><tspan x="-20.175" y="0">Pelapor adalah</tspan><tspan x="-33.123" y="7">Warga Negara Indonesia</tspan><tspan x="-20.424" y="14">atau Penduduk</tspan></text>
+    <text id="Laporan_sudah_secara_langsung_disampaikan_kepada_pihak_Terlapor_tetapi_tidak_mendapat_penyelesaian_sebagaimana_mestinya" data-name="Laporan sudah secara langsung
+disampaikan kepada pihak Terlapor, 
+tetapi tidak mendapat penyelesaian 
+sebagaimana mestinya" transform="translate(181 323)" font-size="6" font-family="Ubuntu-Regular, Ubuntu"><tspan x="-42.348" y="0">Laporan sudah secara langsung</tspan><tspan x="-48.951" y="7">disampaikan kepada pihak Terlapor, </tspan><tspan x="-49.368" y="14">tetapi tidak mendapat penyelesaian </tspan><tspan x="-30.825" y="21">sebagaimana mestinya</tspan></text>
+    <text id="Peristiwa_tindakan_atau_keputusan_yang_dilaporkan_belum_lewat_2_dua_tahun_terjadi" data-name="Peristiwa, tindakan atau
+keputusan yang dilaporkan
+belum lewat 2 (dua) tahun terjadi" transform="translate(297 324)" font-size="6" font-family="Ubuntu-Regular, Ubuntu"><tspan x="-32.58" y="0">Peristiwa, tindakan atau</tspan><tspan x="-36.567" y="7">keputusan yang dilaporkan</tspan><tspan x="-45.042" y="14">belum lewat 2 (dua) tahun terjadi</tspan></text>
+  </g>
+</svg>

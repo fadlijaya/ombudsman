@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ombudsman/view/layanan_pengaduan/dashboard.dart';
-import 'package:ombudsman/view/layanan_pengaduan/laporan.dart';
-import 'package:ombudsman/view/layanan_pengaduan/profil.dart';
+import 'package:ombudsman/users/view/layanan_pengaduan/dashboard.dart';
+import 'package:ombudsman/users/view/layanan_pengaduan/laporan.dart';
+import 'package:ombudsman/users/view/layanan_pengaduan/akun.dart';
 
 class LayananPengaduan extends StatefulWidget {
   final String uid;
@@ -54,6 +54,8 @@ class _LayananPengaduanState extends State<LayananPengaduan> {
 }
 
 class Fitur extends StatefulWidget {
+  static const routeName = '/fitur';
+
   final String uid;
   final String identitas;
   final String namaLengkap;
@@ -94,9 +96,21 @@ class _FiturState extends State<Fitur> {
     pageList.add(Dashboard(
       uid: widget.uid,
       namaLengkap: widget.namaLengkap,
+      identitas: widget.identitas,
     ));
-    pageList.add(Laporan(uid: widget.uid));
-    pageList.add(Profil(
+    pageList.add(Laporan(
+      uid: widget.uid,
+      identitas: widget.identitas,
+      namaLengkap: widget.namaLengkap,
+      tglLahir: widget.tglLahir,
+      alamat: widget.alamat,
+      status: widget.status,
+      pekerjaan: widget.pekerjaan,
+      noTelepon: widget.noTelepon,
+      email: widget.email,
+      password: widget.password
+    ));
+    pageList.add(Akun(
         uid: widget.uid,
         namaLengkap: widget.namaLengkap,
         email: widget.email,
@@ -117,7 +131,7 @@ class _FiturState extends State<Fitur> {
         bottomNavigationBar: BottomNavigationBar(
           key: _bottomNavigationKey,
           currentIndex: _selectedPage,
-          items: const <BottomNavigationBarItem>[
+          items: [
             BottomNavigationBarItem(
               icon: Icon(Icons.dashboard),
               // ignore: deprecated_member_use
@@ -138,7 +152,7 @@ class _FiturState extends State<Fitur> {
               icon: Icon(Icons.account_circle),
               // ignore: deprecated_member_use
               title: Text(
-                'Profil',
+                'Akun',
                 style: TextStyle(fontSize: 10.0),
               ),
             ),

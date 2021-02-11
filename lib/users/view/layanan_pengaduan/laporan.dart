@@ -6,13 +6,35 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:ombudsman/constant.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:ombudsman/users/view/layanan_pengaduan/layanan_pengaduan.dart';
 
 class Laporan extends StatefulWidget {
   static const routeName = '/laporan';
 
   final String uid;
+  final String identitas;
+  final String namaLengkap;
+  final String tglLahir;
+  final String alamat;
+  final String status;
+  final String pekerjaan;
+  final String noTelepon;
+  final String email;
+  final String password;
 
-  const Laporan({Key key, this.uid}) : super(key: key);
+  const Laporan(
+      {Key key,
+      this.uid,
+      this.identitas,
+      this.namaLengkap,
+      this.tglLahir,
+      this.alamat,
+      this.status,
+      this.pekerjaan,
+      this.noTelepon,
+      this.email,
+      this.password})
+      : super(key: key);
 
   @override
   _LaporanState createState() => _LaporanState();
@@ -71,7 +93,7 @@ class _LaporanState extends State<Laporan> {
     if (image != null) {
       var snapshot = await _storage
           .ref()
-          .child('folderName/$_imageUrl')
+          .child('$_imageUrl')
           .putFile(file)
           .onComplete;
 
@@ -87,112 +109,121 @@ class _LaporanState extends State<Laporan> {
 
   @override
   Widget build(BuildContext context) {
-
-    _submitDetails() async {
-      if (_formKey.currentState.validate()) {
-        Firestore.instance
-            .collection('Users')
-            .document(widget.uid)
-            .collection('Laporan')
-            .add({
-          'Nama Terlapor': _namaController1.text,
-          'Jabatan': _jabatanController1.text,
-          'Instansi Terlapor': _instansiController1.text,
-          'Alamat Terlapor': _alamatController1.text,
-          'Waktu Peristiwa': _tglPeristiwaController2.text,
-          'Nama Petugas': _namaController2.text,
-          'Jabatan Petugas': _jabatanController2.text,
-          'Instansi': _instansiController2.text,
-          'Tanggal Instansi Terlapor': _tglTerlaporController2.text,
-          'Pengadilan': _pengadilanController2.text,
-          'No.Registrasi Perkara': _noRegisController2.text,
-          'Tanggal Peristiwa': _tglController3.text,
-          'Peristiwa': _peristiwaController3.text,
-          'Alamat': _alamatController3.text,
-          'Harapan Pelapor': _harapanController4.text,
-          'Rahasiakan Identitas': _identitas,
-          'Catatan': _catatanController5.text,
-          'Tanggal Laporan': _tglLaporanController5.text,
-          'Bukti File': _imageUrl
-        }).then((result) => showDialog(
-                context: context,
-                builder: (BuildContext context) {
-                  return AlertDialog(
-                    content: Text('Laporan Berhasil Dibuat!'),
-                    actions: [
-                      FlatButton(
-                          onPressed: () {
-                            Navigator.of(context).pop();
-                            _namaController1.clear();
-                            _jabatanController1.clear();
-                            _instansiController1.clear();
-                            _alamatController1.clear();
-                            _tglPeristiwaController2.clear();
-                            _namaController2.clear();
-                            _jabatanController2.clear();
-                            _instansiController2.clear();
-                            _tglTerlaporController2.clear();
-                            _pengadilanController2.clear();
-                            _noRegisController2.clear();
-                            _tglController3.clear();
-                            _peristiwaController3.clear();
-                            _alamatController3.clear();
-                            _harapanController4.clear();
-                            _catatanController5.clear();
-                            _tglLaporanController5.clear();
-                            //_imageUrl
-                          },
-                          child: Text('OK'))
-                    ],
-                  );
-                }));
-      }
-    }
-
     return Scaffold(
       body: Container(
-        child: Form(
-          key: _formKey,
-          child: ListView(children: <Widget>[
-            Stepper(
-              steps: _stepper(),
-              physics: ClampingScrollPhysics(),
-              type: StepperType.vertical,
-              currentStep: this._currentStep,
-              onStepTapped: (step) {
-                setState(() {
-                  this._currentStep = step;
-                });
-              },
-              onStepContinue: () {
-                setState(() {
-                  if (this._currentStep < this._stepper().length - 1) {
-                    this._currentStep = this._currentStep + 1;
-                  } else {
-                    this._currentStep = 0;
-                  }
-                });
-              },
-              onStepCancel: () {
-                setState(() {
-                  if (this._currentStep > 0) {
-                    this._currentStep = this._currentStep - 1;
-                  } else {
-                    this._currentStep = 0;
-                  }
-                });
-              },
-            ),
-            ButtonTheme(
-              height: 60,
-              child: RaisedButton(
+          width: double.infinity, child: Stack(children: [_widgetStepper()])),
+    );
+  }
+
+  Widget _widgetStepper() {
+    return Container(
+      child: Form(
+        key: _formKey,
+        child: ListView(children: <Widget>[
+          Stepper(
+            steps: _stepper(),
+            physics: ClampingScrollPhysics(),
+            type: StepperType.vertical,
+            currentStep: this._currentStep,
+            onStepTapped: (step) {
+              setState(() {
+                this._currentStep = step;
+              });
+            },
+            onStepContinue: () {
+              setState(() {
+                if (this._currentStep < this._stepper().length - 1) {
+                  this._currentStep = this._currentStep + 1;
+                } else {
+                  this._currentStep = 0;
+                }
+              });
+            },
+            onStepCancel: () {
+              setState(() {
+                if (this._currentStep > 0) {
+                  this._currentStep = this._currentStep - 1;
+                } else {
+                  this._currentStep = 0;
+                }
+              });
+            },
+          ),
+          ButtonTheme(
+            height: 60,
+            child: RaisedButton(
                 child: Text('SUBMIT',
                     style: TextStyle(color: Colors.white, fontSize: 18)),
-                onPressed: _submitDetails,
-              ),
-            )
-          ]),
-        ),
+                onPressed: () async {
+                  if (_formKey.currentState.validate()) {
+                    Firestore.instance.collection('Laporan').add({
+                      'Identitas': widget.identitas,
+                      'Nama Lengkap': widget.namaLengkap,
+                      'Tanggal Lahir': widget.tglLahir,
+                      'Alamat': widget.alamat,
+                      'Status': widget.status,
+                      'Pekerjaan': widget.pekerjaan,
+                      'No.Telepon': widget.noTelepon,
+                      'Email': widget.email,
+                      'Kata Sandi': widget.password,
+                      'Nama Terlapor': _namaController1.text,
+                      'Jabatan': _jabatanController1.text,
+                      'Instansi Terlapor': _instansiController1.text,
+                      'Alamat Terlapor': _alamatController1.text,
+                      'Waktu Peristiwa': _tglPeristiwaController2.text,
+                      'Nama Petugas': _namaController2.text,
+                      'Jabatan Petugas': _jabatanController2.text,
+                      'Instansi': _instansiController2.text,
+                      'Tanggal Instansi Terlapor': _tglTerlaporController2.text,
+                      'Mode Laporan': _selectedMode,
+                      'Pengadilan': _pengadilanController2.text,
+                      'No.Registrasi Perkara': _noRegisController2.text,
+                      'Tanggal Peristiwa': _tglController3.text,
+                      'Peristiwa': _peristiwaController3.text,
+                      'Alamat Terlapor Peristiwa': _alamatController3.text,
+                      'Harapan Pelapor': _harapanController4.text,
+                      'Rahasiakan Identitas': _identitas,
+                      'Catatan': _catatanController5.text,
+                      'Tanggal Laporan': _tglLaporanController5.text,
+                      'Bukti File': _imageUrl
+                    }).then((result) => showDialog(
+                        context: context,
+                        builder: (BuildContext context) {
+                          return AlertDialog(
+                            content: Text('Laporan Berhasil Terkirim!'),
+                            actions: [
+                              FlatButton(
+                                  onPressed: () {
+                                    Navigator.of(context).pop();
+                                    _namaController1.clear();
+                                    _jabatanController1.clear();
+                                    _instansiController1.clear();
+                                    _alamatController1.clear();
+                                    _tglPeristiwaController2.clear();
+                                    _namaController2.clear();
+                                    _jabatanController2.clear();
+                                    _instansiController2.clear();
+                                    _tglTerlaporController2.clear();
+                                    _pengadilanController2.clear();
+                                    _noRegisController2.clear();
+                                    _tglController3.clear();
+                                    _peristiwaController3.clear();
+                                    _alamatController3.clear();
+                                    _harapanController4.clear();
+                                    _catatanController5.clear();
+                                    _tglLaporanController5.clear();
+                                    //_imageUrl
+
+                                    Navigator.pushReplacementNamed(context, Fitur.routeName);
+                                  },
+                                  child: Text('OK'))
+                            ],
+                          );
+                        }));
+                  }
+                }),
+          )
+        ]),
       ),
     );
   }
@@ -325,6 +356,12 @@ class _LaporanState extends State<Laporan> {
                   Text('Tidak')
                 ],
               ),
+              SizedBox(height: 8.0),
+              Row(
+                children: [
+                  Text('Keterangan', style: TextStyle(fontWeight: FontWeight.w500),),
+                ],
+              ),
               TextFormField(
                 enabled: _disable1,
                 controller: _namaController2,
@@ -415,6 +452,12 @@ class _LaporanState extends State<Laporan> {
                   Text('Tidak')
                 ],
               ),
+              SizedBox(height: 8.0),
+              Row(
+                children: [
+                  Text('Keterangan', style: TextStyle(fontWeight: FontWeight.w500),),
+                ],
+              ),
               TextFormField(
                 enabled: _disable2,
                 controller: _pengadilanController2,
@@ -485,7 +528,7 @@ class _LaporanState extends State<Laporan> {
               Column(
                 children: [
                   Text('Catatan/Bukti'),
-                  (_imageUrl != null) ? Image.network(_imageUrl) : Text(' '), 
+                  (_imageUrl != null) ? Image.network(_imageUrl) : Text(' '),
                   FlatButton(
                       onPressed: uploadImage,
                       child: Container(

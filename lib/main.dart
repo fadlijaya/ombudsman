@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:ombudsman/view/layanan_pengaduan/dashboard.dart';
-import 'package:ombudsman/view/layanan_pengaduan/laporan.dart';
-import 'package:ombudsman/view/layanan_pengaduan/login.dart';
-import 'package:ombudsman/view/layanan_pengaduan/register.dart';
+import 'package:ombudsman/users/view/layanan_pengaduan/dashboard.dart';
+import 'package:ombudsman/users/view/layanan_pengaduan/laporan.dart';
+import 'package:ombudsman/users/view/layanan_pengaduan/layanan_pengaduan.dart';
+import 'package:ombudsman/users/view/layanan_pengaduan/login.dart';
+import 'package:ombudsman/users/view/layanan_pengaduan/register.dart';
 import 'package:splashscreen/splashscreen.dart';
-import 'package:ombudsman/view/menu.dart';
+import 'package:ombudsman/users/view/menu.dart';
 
 void main() => runApp(MaterialApp(
       debugShowCheckedModeBanner: false,
@@ -17,6 +18,7 @@ void main() => runApp(MaterialApp(
         Menu.routeName: (context) => Menu(),
         Login.routeName: (context) => Login(),
         Register.routeName: (context) => Register(),
+        Fitur.routeName: (context) => Fitur(),
         Dashboard.routeName: (context) => Dashboard(),
         Laporan.routeName: (context) => Laporan()
       },

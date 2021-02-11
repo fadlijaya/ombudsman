@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ombudsman/models/regulasi.dart';
-import 'package:ombudsman/view/regulasi/pdf.dart';
+import 'package:ombudsman/users/models/regulasi.dart';
+import 'package:ombudsman/users/view/regulasi/pdf.dart';
 
 class Regulasi extends StatefulWidget {
   @override
@@ -21,21 +21,18 @@ class _RegulasiState extends State<Regulasi> {
         body: ListView.builder(
             itemCount: regulasi.length,
             itemBuilder: (context, index) {
-              return Card(
-                child: ListTile(
-                  title: Text(regulasi[index].title),
-                  subtitle: Text(regulasi[index].desc),
-                  onTap: () {
-                    Navigator.push(
+              return GestureDetector(
+                onTap: () {
+                  Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => PDF(
                                 title: regulasi[index].title,
-                                desc: regulasi[index].title,
                                 docs: regulasi[index].docs)));
-                  },
-                ),
-              );
+                },
+                child: Container(
+                  padding: EdgeInsets.only(left: 16.0, right: 16.0, bottom: 4.0, top: 16.0),
+                  child: Text(regulasi[index].title, style: TextStyle(color: Colors.blue[900]),)));
             }));
   }
 }

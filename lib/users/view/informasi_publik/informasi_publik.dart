@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ombudsman/models/informasi_publik.dart';
-import 'package:ombudsman/view/informasi_publik/pdf.dart';
+import 'package:ombudsman/users/models/informasi_publik.dart';
+import 'package:ombudsman/users/view/informasi_publik/pdf.dart';
 
 class Info extends StatefulWidget {
   @override
@@ -21,19 +21,18 @@ class _InfoState extends State<Info> {
         body: ListView.builder(
             itemCount: informasiPublik.length,
             itemBuilder: (context, index) {
-              return Card(
-                child: ListTile(
-                  title: Text(informasiPublik[index].title),
-                  onTap: () {
-                    Navigator.push(
+              return GestureDetector(
+                onTap: () {
+                   Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => PDF(
                                 title: informasiPublik[index].title,
                                 docs: informasiPublik[index].docs)));
-                  },
-                ),
-              );
+                },
+                child: Container(
+                   padding: EdgeInsets.only(left: 16.0, right: 16.0, bottom: 4.0, top: 16.0),
+                  child: Text(informasiPublik[index].title, style: TextStyle(color: Colors.blue[900]),)));
             }));
   }
 }

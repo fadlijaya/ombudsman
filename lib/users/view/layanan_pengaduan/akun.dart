@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:ombudsman/constant.dart';
-import 'package:ombudsman/view/menu.dart';
+import 'package:ombudsman/users/view/menu.dart';
 
-class Profil extends StatefulWidget { 
+class Akun extends StatefulWidget { 
   final String uid;
   final String namaLengkap;
   final String email;
@@ -10,7 +10,7 @@ class Profil extends StatefulWidget {
   final String tglLahir;
   final String identitas;
 
-  const Profil(
+  const Akun(
       {Key key,
       this.uid,
       this.namaLengkap,
@@ -20,10 +20,10 @@ class Profil extends StatefulWidget {
       this.identitas})
       : super(key: key);
   @override
-  _ProfilState createState() => _ProfilState();
+  _AkunState createState() => _AkunState();
 }
 
-class _ProfilState extends State<Profil> {
+class _AkunState extends State<Akun> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,16 +34,17 @@ class _ProfilState extends State<Profil> {
           child: Center(
             child:
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+              Text('Akun Saya', style: TextStyle(color: Colors.white, fontSize: 18.0),),
+              SizedBox(height: 32.0),
               Image.asset(
                 'images/avatar.png',
-                width: 90,
+                width: 72.0,
               ),
               SizedBox(height: 8.0),
               Text(
                 widget.namaLengkap ?? 'Nama Lengkap',
                 style: TextStyle(
                     color: Colors.white,
-                    fontSize: 18,
                     fontWeight: FontWeight.w500),
               )
             ]),
@@ -125,7 +126,14 @@ class _ProfilState extends State<Profil> {
               ],
             ),
           ),
-        )
+        ),
+        Positioned(child: Align(
+          alignment: Alignment.bottomCenter,
+          child: Padding(
+            padding: EdgeInsets.only(bottom: 8.0),
+            child: Text('v1.0.0', style: TextStyle(color: Colors.grey)),
+          )
+        ))
       ]),
     );
   }
